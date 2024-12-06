@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerFumY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="download (1).jpg">
+</head>
+<body>
+    <div class="header">
+    <nav>
+        <h1>Perfumy</h1>
+
+        <ul>
+            <li>Home | </li>
+            <li>Poducts | </li>
+            <li>About | </li>
+            <li>contact Us</li>
+
+        </ul>
+    </nav>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="search" id="search" onkeyup="sear()">
+        <h4 id="para"></h4>
+    </div>
+
+    <div class="products">
+        <div class="one"> <img src="download 1.jpg" alt="perfume image">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iste, earum at sit dignissimos sed alias nostrum ex tenetur deleniti.</p>
+        </div>
+        <div class="one"> <img src="download 1.jpg" alt="perfume image" >
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iste, earum at sit dignissimos sed alias nostrum ex tenetur deleniti.</p>
+            </div>
+        <div class="one"> <img src="download 1.jpg" alt="perfume image">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iste, earum at sit dignissimos sed alias nostrum ex tenetur deleniti.</p>
+        </div>   
+    </div>
+
+    <div class="About">
+        <h1>About US </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, in numquam. Possimus quod mollitia alias animi, natus illum deleniti obcaecati repudiandae nostrum et deserunt excepturi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam soluta dolores ipsum magnam, distinctio laborum voluptatem, maxime recusandae officia impedit saepe. Qui neque eveniet officiis quisquam laudantium obcaecati veniam.</p>
+    </div>
+    <div class="contact">
+        <h4>contact</h4>
+        <p>6383431287</p>
+        <p>perfumey@gmail.com</p>
+        <p style="margin: 25px; font-size: 15px;" >Lorem, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eum incidunt rem quam ducimus ratione. Expedita quo vitae soluta error!ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla, saepe quidem vitae reprehenderit aliquid quo vero eos repudiandae in, ipsa consequatur officia at repellat?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quidem laborum ab molestiae ad consequuntur quos, ea repudiandae facere aperiam a exercitationem, doloremque maiores nesciunt.</p>
+    </div>
+
+    <script>
+        var search=document.getElementById("search")
+        var para=document.getElementById("para")
+
+        function sear()
+        {
+            para.textContent=search.value
+        }
+    </script>
+
+</body>
+</html>

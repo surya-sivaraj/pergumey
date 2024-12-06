@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    nav{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+    li,ul,h1{
+        display: inline;
+    }
+    
+    ul {
+        margin-left: 70%;
+    }
+
+    li{
+        color: gray;
+        cursor: pointer;
+    }
+    li:hover{
+        color: white;
+    }
+
+}
+    input{
+        width: 60%;
+        padding: 15px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+    }
+.search{
+    padding: 50px;
+    text-align: center;
+}
+.one{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 187px;
+    margin-right: 8px;
+}
+
+.one:hover{
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+
+.products{
+    text-align: center;
+}
+
+.About{
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#para{
+    position: absolute;
+    top: 165px;
+    left: 330px;
+    cursor: pointer;
+    padding: 5px;
+}
+@media only screen and (max-width: 480px) {
+    .header nav {
+        padding: 10px;
+    }
+
+    .header ul {
+        margin-left: 10%;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .one {
+        width: 100px;
+        margin-right: 5px;
+    }
+
+    #para {
+        top: 100px;
+        left: 20px;
+    }
+
+    .search {
+        padding: 20px;
+    }
+
+    .About, .contact {
+        padding: 10px;
+    }
+
+    .contact {
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    .products {
+        text-align: center;
+    }
+}
